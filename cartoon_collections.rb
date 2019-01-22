@@ -1,8 +1,8 @@
 def roll_call_dwarves(list)
   i = 0
   while i < list.length
-  i = 1
-  puts "#{i}"
+   
+  puts "#{i + 1}. "
   
 end
 
