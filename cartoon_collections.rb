@@ -25,7 +25,4 @@ end
 
 def find_the_cheese(cheese_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  i = 0 
-  while i < cheese_array.length
-    cheese_array.find cheese_types[i]
-      i = 1 + i
+  
