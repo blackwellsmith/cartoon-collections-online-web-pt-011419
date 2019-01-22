@@ -28,9 +28,4 @@ def find_the_cheese(cheese_array)
   i = 0 
   while i < cheese_array.length
     cheese_array.find cheese_types[i]
-      i = 1 + i 
-    else
-      return cheese_array[i]
-    end
-  end
-end
+      i = 1 + i
