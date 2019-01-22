@@ -18,7 +18,7 @@ end
 def long_planeteer_calls(long_list)
   if long_list.find {|i| i.length < 4 }
     false 
-  elsif long_list.find {|i| i.length > 4}
+  elsif long_list.include {|i| i.length > 4}
     true
   end
 end
