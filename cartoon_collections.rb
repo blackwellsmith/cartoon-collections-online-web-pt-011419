@@ -16,7 +16,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(long_list)
-  if long_list.find {|i| i.length >= 4 }
+  if long_list.find {|i| i.length > 4 }
     true 
   else
     false
